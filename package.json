@@ -1,5 +1,6 @@
 {
-  "name": "pulumi-test-vpc",
+  "name": "pulumi-aws-vpc",
+  "description": "AWS VPC infra with Public, Private, and Isolated EC2 instances",
   "scripts": {
     "lint": "eslint ./**/*.{js,jsx,ts,tsx}",
     "prepare": "husky install"
