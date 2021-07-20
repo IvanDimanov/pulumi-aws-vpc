@@ -1,0 +1,3 @@
+name: Test-VPC
+runtime: nodejs
+description: Testing VPC options with pulumi

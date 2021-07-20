@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "google",
+    "plugin:@typescript-eslint/recommended"
+  ],
+
+  "parser": "@typescript-eslint/parser",
+
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+
+  "rules": {
+    "no-invalid-this": 0,
+    "max-len": [2, 130, 2,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "comments": 300
+      }
+    ],
+    "require-atomic-updates": 0,
+    "no-extra-semi": 0,
+    "indent": 0,
+    "semi": ["error", "never", {"beforeStatementContinuationChars": "always"}],
+    "operator-linebreak": [
+      "error",
+      "after",
+      {"overrides": {"?": "before", ":": "before"}}
+    ],
+    "quote-props": 0,
+    "object-curly-spacing": ["error", "always"],
+    "camelcase": 0,
+    "@typescript-eslint/ban-ts-comment": 0,
+    "@typescript-eslint/no-empty-interface": 0
+  }
+}
