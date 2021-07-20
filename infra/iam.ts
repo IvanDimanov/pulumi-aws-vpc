@@ -13,4 +13,4 @@ const ami = pulumi.output(aws.ec2.getAmi({
 
 
 export default ami
-ads
+asdas

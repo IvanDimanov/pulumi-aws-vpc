@@ -1,12 +1,8 @@
 {
   "name": "pulumi-test-vpc",
   "scripts": {
-    "lint": "eslint ./**/*.{js,jsx,ts,tsx}"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run lint"
-    }
+    "lint": "eslint ./**/*.{js,jsx,ts,tsx}",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@pulumi/aws": "4.12.0",
@@ -21,7 +17,7 @@
     "@typescript-eslint/parser": "4.28.3",
     "eslint": "7.31.0",
     "eslint-config-google": "0.14.0",
-    "husky": "6.0.0",
+    "husky": "7.0.1",
     "typescript": "4.3.5"
   }
 }
